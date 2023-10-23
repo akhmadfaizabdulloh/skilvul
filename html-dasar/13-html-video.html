@@ -26,7 +26,18 @@
 <video width="320" height="240" poster="https://static-assets.skilvul.com/lesson/intro-to-html/cat.jpeg" controls>
   <source src="https://bit.ly/2FKluzq" />
 </video>
-    
+ 
+<!-- Fallback Video Format -->
+<!-- andaikata browsernya tidak mendukung format mp4, dia akan beralih mencoba yang ada di bawahnya: yaitu ogg dan webm. -->
+<!-- Kita bisa tambahkan beberapa element <source> di dalam <video> seperti ini -->
+
+<video width="800" height="600">
+    <source src="link-ke-videonya" type="video/mp4" />
+    <source src="link-ke-videonya" type="video/ogg" />
+    <source src="link-ke-videonya" type="video/webm" />
+</video>
+
+
     
 <!-- 
 Soal Latihan (3 Soal)
