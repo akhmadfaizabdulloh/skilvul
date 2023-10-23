@@ -1,0 +1,46 @@
+<!-- Syntaxnya cukup simpel, seperti di bawah ini: -->
+<video width="320" height="240" src="link-ke-videonya"></video>
+
+<!-- atau dengan mengapit element <source> di antara element <video> seperti ini -->
+
+<video width="320" height="240">
+  <source src="link-ke-video-nya" type="video/tipe-videonya"/>
+</video>
+
+<!-- Contoh penggunaannya: -->
+<video width="320" height="240">
+  <source src="https://bit.ly/3j6rPni" />
+</video>
+
+
+<!-- Autoplay -->
+<!-- Untuk memulai videonya secara otomatis. -->
+<video width="320" height="240" autoplay>
+
+<!-- Controls -->
+<!-- untuk menampilkan tombol play, pause, dan fullscreen? -->
+<video width="320" height="240" controls>
+
+<!-- Poster -->
+<!-- saat videonya di-load sampai kita memulai, akan ditampilkan gambar (thumbnail video) -->
+<video width="320" height="240" poster="https://static-assets.skilvul.com/lesson/intro-to-html/cat.jpeg" controls>
+  <source src="https://bit.ly/2FKluzq" />
+</video>
+    
+    
+<!-- 
+Soal Latihan (3 Soal)
+
+1. Buat sebuah tag <video> dengan attribute width=600, height=400 dan autoplay
+(20 SkilPoin)
+
+2. Tampilkan video dengan source https://bit.ly/3goJEfJ
+(20 SkilPoin)
+
+3. Video <source> harus mempunyai attribute type=video/mp4
+(20 SkilPoin)
+ -->
+
+<video width="600" height="400" autoplay>
+    <source src="https://bit.ly/3goJEfJ" type="video/mp4">
+</video>
